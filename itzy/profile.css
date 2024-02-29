@@ -1,0 +1,147 @@
+* {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color:#000000;
+}
+
+nav{
+    background-color: rgba(0, 0, 0, 0.361);
+    margin: -8PX;
+}
+
+.intro{
+    padding-top: 41px;
+    padding-left: 48%;
+    position: fixed;
+    vertical-align: middle;
+}
+.symbol{
+    margin-top: 23%;
+    margin-left: -41%;
+    margin-bottom: -12%;
+}
+ul {
+    list-style: none;
+    margin-top: -2%;
+}
+
+ul li {
+    top: 0%;
+    position: relative;
+    display: inline-block;
+}
+
+ul li a {
+    margin: 0%;
+    display: block;
+    padding: 20px 25px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-align: center;
+    font-size: large;
+    
+}
+ul li ul.dropdown li {
+    display: block;
+}
+
+ul li ul.dropdown {
+    padding-top: 4%;
+    padding-left: 0%;
+    width: 347%;
+    background: #000000;
+    position: absolute;
+    display: none;
+    top: 118%;
+}
+ul li a:hover {
+    margin: 0%;
+    background: #73141456;
+}
+
+ul li:hover ul.dropdown {
+    display: block;
+}
+.socialmedia{
+    color: white;
+    cursor: pointer;
+    font-size: larger;
+    letter-spacing: 12px;
+    background-color: rgba(16, 16, 16, 0.591);
+    position: fixed;
+    bottom: -3px;
+    left: 0px;
+    width: 97%;
+    padding: 25px;
+    text-align: center;
+}
+.socialmedia i:hover{
+    color: rgb(255, 0, 0);
+}
+details{
+    position: fixed;
+    bottom: -3px;
+    left: -5px;
+    width: 97%;
+    padding: 35px;
+    text-decoration: none;
+    text-align: end;
+    cursor: pointer;
+}
+details a:hover{
+    color: rgb(255, 0, 0);
+    font-size:large;
+    transition: 0.1s;
+}
+summary{
+    margin-left: 46%;
+    margin-top: -58.555556%;
+    line-height: 5;
+}
+.image{
+    margin-top: 7%;
+    padding-left: 24%;
+    float: inline-start;
+    display: flex;
+}
+.artists{
+    padding-top: 3%;
+    padding-left: 21%;
+}
+.title{
+    padding-left: 26%;
+}
+.artistsimg{
+    width: 85%;
+    padding-top: 3%;
+    padding-left: 15%;
+}
+.aboutus{
+    width: 68%;
+    padding-left: 22%;
+    padding-top: 57%;
+}
+.matter{
+    width: 72%;
+    padding-left: 14%;
+    padding-top: 5%;
+}
+button {
+    PADDING: 1%;
+    font-size: 17px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    border: solid 2px rgb(255, 255, 255);
+    width: 15%;
+    margin: 7% 42%;
+}
+.rights{
+    padding-left: 81%;
+    padding-top: 4.5%;
+    font-size: x-small;
+    font-weight: 700;
+}
